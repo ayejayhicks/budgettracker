@@ -11,11 +11,9 @@ Challenges: Finding a starting place on the assignment with not much direction f
 Successes: Having a good starting point after reviewing past activities and reading documentation.
 
 ## Technologies Used
-Node.js  
-Express.js  
-MongooseDB  
-IndexedDB
-
+Express.js
+MongoDB  
+Mongoose  
 ____
 ### Links
 [Github] (https://github.com/ayejayhicks/budgettracker)  
