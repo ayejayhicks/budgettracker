@@ -11,7 +11,8 @@ Challenges: Finding a starting place on the assignment with not much direction f
 Successes: Having a good starting point after reviewing past activities and reading documentation.
 
 ## Technologies Used
-Express.js
+Express.js  
+Node.js
 MongoDB  
 Mongoose  
 ____
