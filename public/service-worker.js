@@ -3,7 +3,7 @@ const FILES_TO_CACHE = [
     '/index.html',
     '/index.js',
     '/manifest.webmanifest',
-    '/style.css',
+    '/styles.css',
     '/icons/icon-192x192.png',
     '/icons/icon-512x512.png',
 ];
@@ -15,7 +15,11 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
       caches
         .open(PRECACHE)
-        .then((cache) => cache.addAll(FILES_TO_CACHE))
+        .then((cache) => {
+          console.log("What is happeneing?", cache)
+          cache.addAll(FILES_TO_CACHE)
+        }
+      )
         .then(self.skipWaiting())
     );
   });
