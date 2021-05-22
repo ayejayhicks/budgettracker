@@ -16,7 +16,7 @@ self.addEventListener('install', (event) => {
       caches
         .open(PRECACHE)
         .then((cache) => {
-          console.log("What is happeneing?", cache)
+          console.log("What is happening?", cache)
           cache.addAll(FILES_TO_CACHE)
         }
       )
